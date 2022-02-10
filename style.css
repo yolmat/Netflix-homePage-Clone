@@ -12,7 +12,7 @@ body{
              rgba(0, 0, 0, 0.7), 
              rgba(0, 0, 0, 0.7)
            ),
-           url(https://assets.nflxext.com/ffe/siteui/vlv3/eb482c64-e879-4e88-9ddc-d839cb7d1232/e9e3f8d0-711a-448e-8441-33b269740de7/BR-pt-20220131-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+           url(https://assets.nflxext.com/ffe/siteui/vlv3/6dea7743-5586-45d1-89a2-9569b1bb0340/08a80f4f-28ea-4d9e-b250-e4d3ac127f73/BR-pt-20220207-popsignuptwoweeks-perspective_alpha_website_small.jpg);
            background-repeat: repeat-y;
            background-repeat: repeat-x;
         }
@@ -75,13 +75,13 @@ nav {
 
 .informations h1 {
     font-weight: bold;
-    font-size: 60px;
+    font-size: clamp(3.75rem + 1vw);
     margin-bottom: 40px;
 }
 
 .informations h2 {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 1.563rem;
     margin-bottom: 40px;
 }
 
