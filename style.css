@@ -15,7 +15,7 @@ body{
            url(https://assets.nflxext.com/ffe/siteui/vlv3/6dea7743-5586-45d1-89a2-9569b1bb0340/08a80f4f-28ea-4d9e-b250-e4d3ac127f73/BR-pt-20220207-popsignuptwoweeks-perspective_alpha_website_small.jpg);
            background-repeat: repeat-y;
            background-repeat: repeat-x;
-        }
+}
 
 .productInit {
     -webkit-box-shadow: inset 0px 0px 50px 50px #000000; 
@@ -40,7 +40,7 @@ nav {
 }
 
 .linguagem {
-    width: 113px;
+    width: calc(8em + 1vw);
     height: 36.19px;
     background-color: #00000066;
     color:#FFFFFF;
@@ -52,6 +52,7 @@ nav {
     background-color: #808080;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .start {
@@ -60,8 +61,8 @@ nav {
     border-radius: 5%;
     font-weight: bold;
     border: none;
-    width: 78.7px;
-    height: 34px;
+    width: calc(7em + 1vw);
+    height: calc(1.7em + 1vw);
     margin: 0px 0px 0px 20px;
     cursor: pointer;
 }
@@ -70,29 +71,29 @@ nav {
     display: block;
     text-align: center;
     color: #FFFFFF;
-    margin: 180px 0px 0px 0px;
+    margin: 130px 0px 0px 0px;
 }
 
 .informations h1 {
     font-weight: bold;
-    font-size: clamp(3.75rem + 1vw);
+    font-size: calc(1em + 3vw);
     margin-bottom: 40px;
 }
 
 .informations h2 {
     font-weight: 400;
-    font-size: 1.563rem;
+    font-size: calc(0.4em + 1vw);
     margin-bottom: 40px;
 }
 
 .input-information {
     font-weight: 500;
-    font-size: 19px;
-    margin-bottom: 20px;
+    font-size: calc(0.7em + 0.5vw);
+    margin-bottom: 40px;
 }
 
 .input-email {
-    width: 470px;
+    width: calc(40em + 1vw);
     height: 58px;
     margin-right: -3px;
     outline: none;
@@ -102,13 +103,52 @@ nav {
 }
 
 .button-email {
-    width: 124px;
-    height: 58px;
+    width: calc(6em + 1vw);
+    height: calc(1.9em + 1vw);
     color: #FFFFFF;
     background-color: #e50914;
     border: none;
     font-weight: bolder;
-    font-size: 17px;
+    font-size: calc(0.7em + 0.5vw);
     margin-bottom: 130px;
     cursor: pointer;
+}
+
+.line {
+    width: 100%;
+    height: 8px;
+    background-color: #343434;
+}
+
+.informationsProducts {
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;   
+}
+
+.boxInformations {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.boxInformations img {
+    display: inline-block;
+}
+
+.texts {
+    width: 500px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 10em;
+    text-align: left;
+}
+
+.texts h2 {
+    font-size: calc(2rem + 1vw);
+    margin-bottom: 2rem;
+}
+
+.texts p {
+    font-size: calc(0.9rem + 0.5vw);
 }
