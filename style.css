@@ -6,6 +6,8 @@
     color: #FFFFFF;
 }
 
+
+
 body{
     background:
            linear-gradient(
@@ -13,10 +15,13 @@ body{
              rgba(0, 0, 0, 0.7)
            ),
            url(https://assets.nflxext.com/ffe/siteui/vlv3/6dea7743-5586-45d1-89a2-9569b1bb0340/08a80f4f-28ea-4d9e-b250-e4d3ac127f73/BR-pt-20220207-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+           
            background-repeat: repeat-y;
            background-repeat: repeat-x;
 }
-
+.container {
+    background-color: #000000;
+}
 .productInit {
     -webkit-box-shadow: inset 0px 0px 50px 50px #000000; 
     box-shadow: inset 0px 0px 50px 50px #000000;
@@ -94,7 +99,7 @@ nav {
 
 .input-email {
     width: calc(40em + 1vw);
-    height: 58px;
+    height: calc(1.9em + 1.5vw);
     margin-right: -3px;
     outline: none;
     font-size: 15px;
@@ -104,12 +109,12 @@ nav {
 
 .button-email {
     width: calc(6em + 1vw);
-    height: calc(1.9em + 1vw);
+    height: calc(1.9em + 1.5vw);
     color: #FFFFFF;
     background-color: #e50914;
     border: none;
     font-weight: bolder;
-    font-size: calc(0.7em + 0.5vw);
+    font-size: calc(0.7em + 0.4vw);
     margin-bottom: 130px;
     cursor: pointer;
 }
@@ -153,14 +158,85 @@ nav {
     font-size: calc(0.9rem + 0.5vw);
 }
 
-.box {
-    width: 320px;
-    margin: 100px auto;
-    background-color: #FFFFFF;
-    border-radius: 7px;
-    box-shadow: 1px 2px 4px rgba(0, 0, 0);
+.boxFaq {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
 }
 
 .FAQ {
-    
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.FAQ .questions {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 5rem;
+}
+
+.accordion-item {
+    background-color: #303030;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.accordion-link {
+    font-size: 1.6rem;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    font-weight: bold;
+    font-size: calc(0.5rem + 1vw);
+}
+
+.accordion-link i {
+    padding: .5rem;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    position: relative;
+    font-size: 1.5rem;
+    padding: 0 2rem 0 2rem;
+    transition: max-height 650ms;
+}
+
+.accordion-link i:nth-child(2) {
+    display:none;
+}
+
+
+.accordion-item:target .answer {
+    max-height: 50rem;
+    padding-bottom: 2rem;
+}
+
+.accordion-item:target .accordion-link i:nth-child(1) {
+    display: none;
+}
+
+.accordion-item:target .accordion-link i:nth-child(2) {
+    display: block;
+}
+
+.enfForm {
+    margin-top: 2rem;
+}
+
+.end {
+    background-color: #000000;
 }

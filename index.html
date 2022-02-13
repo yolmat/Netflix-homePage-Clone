@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <title>Netflix Home Page Clone</title>
 </head>
 
@@ -155,67 +156,128 @@
 
         <div class="boxFaq">
             <div class="FAQ">
-                <details>
-                    <summary class="titleFaq">O que é a Netflix?</summary>
-                    <p class="textFaq">A Netflix é um serviço de transmissão online que oferece uma ampla variedade de
-                        séries, filmes e documentários premiados em milhares de aparelhos conectados à internet.
-                        <br><br>
-                        Você pode assistir a quantos filmes e séries quiser, quando e onde quiser, sem comerciais – tudo
-                        por
-                        um preço mensal bem acessível. Aqui você sempre encontra novidades. A cada semana, adicionamos
-                        novas
-                        séries e filmes.
-                    </p>
-                </details>
-                <details>
-                    <summary class="titleFaq">Quanto custa a Netflix?</summary>
-                    <p class="textFaq">Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho de
-                        streaming
-                        por uma taxa mensal única. Os planos variam de R$25,90 a R$55,90 por mês. Sem contrato nem taxas
-                        ex</p>
-                </details>
-                <details>
-                    <summary class="titleFaq">Onde posso assistir?</summary>
-                    <p class="textFaq">Assista onde quiser, quando quiser. Faça login com sua conta Netflix em
-                        netflix.com
-                        para começar a assistir no computador ou em qualquer aparelho conectado à Internet compatível
-                        com o
-                        aplicativo Netflix, como Smart TVs, smartphones, tablets, aparelhos de streaming e videogames.
-                        <br><br>
-                        Você também pode baixar a sua série favorita com o aplicativo Netflix para iOS, Android ou
-                        Windows
-                        10. Use downloads para levar a Netflix para onde quiser sem precisar de conexão com a Internet.
-                        Leve
-                        a Netflix com você para qualquer lugar.
-                    </p>
-                </details>
-                <details>
-                    <summary class="titleFaq">Como faço para cancelar?</summary>
-                    <p class="textFaq">A Netflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua
-                        conta na internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou
-                        encerrar a sua assinatura a qualquer momento.</p>
-                </details>
-                <details>
-                    <summary class="titleFaq">O que eu posso assistir na Netflix?</summary>
-                    <p class="textFaq">A Netflix tem um grande catálogo de filmes, documentários, séries, originais
-                        Netflix
-                        premiados e muito mais. Assista o quanto quiser, quando quiser.</p>
-                </details>
-                <details>
-                    <summary class="titleFaq">A Netflix é adequada para crianças?</summary>
-                    <p class="textFaq">A experiência infantil da Netflix faz parte da sua assinatura para que as
-                        crianças se
-                        divirtam em seu próprio espaço com séries e filmes familiares sob a supervisão dos pais.
-                        <br><br>
-                        O recurso de controle dos pais, incluso nos perfis para crianças e protegido por PIN, permite
-                        restringir a classificação etária do conteúdo que as crianças podem ver e bloquear títulos
-                        específicos que você não quer que elas assistam.
-                    </p>
-                </details>
+                <p class="questions">Perguntas frequentes</p>
+                <div class="accordion-item" id="question1">
+                    <a class="accordion-link" href="#question1">
+                        O que é a Netflix?
+                        <i class='bx bx-plus'></i>
+                        <i class='bx bx-x'></i>
+                    </a>
+
+                    <div class="answer">
+                        <p>
+                            A Netflix é um serviço de transmissão online que oferece uma ampla variedade de séries,
+                            filmes e documentários premiados em milhares de aparelhos conectados à internet.
+                            <br><br>
+                            Você pode assistir a quantos filmes e séries quiser, quando e onde quiser, sem comerciais –
+                            tudo por um preço mensal bem acessível. Aqui você sempre encontra novidades. A cada semana,
+                            adicionamos novas séries e filmes.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question2">
+                    <a class="accordion-link" href="#question2">
+                        Quanto custa a Netflix?
+                        <i class='bx bx-plus'></i>
+                        <i class='bx bx-x'></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            Assista à Netflix no seu celular, tablet, Smart TV, notebook ou aparelho de streaming por
+                            uma taxa mensal única. Os planos variam de R$25,90 a R$55,90 por mês. Sem contrato nem taxas
+                            extras.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordion-item" id="question3">
+                    <a class="accordion-link" href="#question3">
+                        Onde possso assistir?
+                        <i class='bx bx-plus'></i>
+                        <i class='bx bx-x'></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            Assista onde quiser, quando quiser. Faça login com sua conta Netflix em netflix.com para
+                            começar a assistir no computador ou em qualquer aparelho conectado à Internet compatível com
+                            o aplicativo Netflix, como Smart TVs, smartphones, tablets, aparelhos de streaming e
+                            videogames.
+                            <br><br>
+                            Você também pode baixar a sua série favorita com o aplicativo Netflix para iOS, Android ou
+                            Windows 10. Use downloads para levar a Netflix para onde quiser sem precisar de conexão com
+                            a Internet. Leve a Netflix com você para qualquer lugar.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question4">
+                    <a class="accordion-link" href="#question4">
+                        Como faço para cancelar?
+                        <i class='bx bx-plus'></i>
+                        <i class='bx bx-x'></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            A Netflix é flexível. Não há contratos nem compromissos. Você pode cancelar a sua conta na
+                            internet com apenas dois cliques. Não há taxa de cancelamento – você pode começar ou
+                            encerrar a sua assinatura a qualquer momento.
+                    </div>
+                </div>
+                <div class="accordion-item" id="question5">
+                    <a class="accordion-link" href="#question5">
+                        O que eu posso assistir na Netflix?
+                        <i class='bx bx-plus'></i>
+                        <i class='bx bx-x'></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            A Netflix tem um grande catálogo de filmes, documentários, séries, originais Netflix
+                            premiados e muito mais. Assista o quanto quiser, quando quiser.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordion-item" id="question6">
+                    <a class="accordion-link" href="#question6">
+                        A Netflix é adequada para crianças?
+                        <i class='bx bx-plus'></i>
+                        <i class='bx bx-x'></i>
+                    </a>
+                    <div class="answer">
+                        <p>
+                            A experiência infantil da Netflix faz parte da sua assinatura para que as crianças se
+                            divirtam em seu próprio espaço com séries e filmes familiares sob a supervisão dos pais.
+                            <br><br>
+                            O recurso de controle dos pais, incluso nos perfis para crianças e protegido por PIN,
+                            permite restringir a classificação etária do conteúdo que as crianças podem ver e bloquear
+                            títulos específicos que você não quer que elas assistam.
+                        </p>
+                    </div>
+                </div>
+                <div class="enfForm">
+                    <form action="">
+                        <label>
+
+                            <p class="input-information">Pronto para assistir? Informe seu email para criar ou
+                                reiniciar
+                                sua
+                                assinatura.</p>
+
+                            <input type="email" placeholder="Email" class="input-email">
+                            <a href=""><button class="button-email">Vamos Lá ></button></a>
+                        </label>
+                    </form>
+                </div>
             </div>
         </div>
 
-
+        <!-- <div class="end">
+            <div class="line"></div>
+            <footer>
+                <div class="doubts">
+                    <p>Dúvidas? Ligue <a>0800-761-4631</a></p>
+                </div>
+            </footer>
+        </div>
+ -->
     </div>
 
 </body>
