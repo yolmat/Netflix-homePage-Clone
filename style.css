@@ -6,7 +6,9 @@
     color: #FFFFFF;
 }
 
-
+a {
+    text-decoration: none;
+}
 
 body{
     background:
@@ -239,4 +241,53 @@ nav {
 
 .end {
     background-color: #000000;
+}
+
+#inputmail {
+    width: calc(30em + 1vw);
+    color: #000000;
+}
+
+footer p, footer a, footer .linguagem {
+    color: #757575;
+}
+
+.linguagem {
+    border: 0.01px solid #757575;
+}
+
+.help {
+    display: flex;
+    margin: 0 15% 0 15%;
+}
+
+.help a {
+    padding-bottom: 7%;
+}
+
+.doubts {
+    padding-left: 15%;
+    margin: 4% 0 3% 0;
+}
+
+.doubts p, .doubts a {
+    font-size: 16px;
+}
+
+.part-1, .part-2, .part-3, .part-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 13px;
+}
+
+footer .linguagem {
+    margin: 2% 15% 0 15%;
+    width: 11%;
+}
+
+.netflix {
+    font-size: 13px;
+    padding: 3% 0 3% 15%;
 }
