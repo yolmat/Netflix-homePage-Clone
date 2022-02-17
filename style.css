@@ -18,6 +18,7 @@ body{
            ),
            url(https://assets.nflxext.com/ffe/siteui/vlv3/6dea7743-5586-45d1-89a2-9569b1bb0340/08a80f4f-28ea-4d9e-b250-e4d3ac127f73/BR-pt-20220207-popsignuptwoweeks-perspective_alpha_website_small.jpg);
 }
+
 .container {
     background-color: #000000;
 }
@@ -36,7 +37,7 @@ header {
 .logo {
     height: auto;
     max-width: 10%;
-    min-width: 15%;
+    min-width: 20%;
 }
 
 nav {
@@ -293,7 +294,7 @@ footer .linguagem {
 @media (max-width: 480px) {
 
     body {
-        width: 480px;
+        width: 100%;
         height: 100%;
     }
 
@@ -306,7 +307,6 @@ footer .linguagem {
     }
 
     .input-information {
-        padding: 1%;
         font-size: 150%;
     }
 
@@ -332,12 +332,16 @@ footer .linguagem {
 
     .texts {
         text-align: center;
-        padding: 5%;
-        margin: 5%;
+        width: 90%;
+        height: 100%;
+        font-size: 5%;
+    }
+
+    .texts h2 {
+        margin-top: 5%;
     }
 
     .boxInformations img {
-        margin: 20px 0px 0px 0px;
         width: 100%;
     }
 
@@ -405,5 +409,8 @@ footer .linguagem {
         padding-bottom: 5%;
     }
 
-
+    .session-2 .boxInformations, .session-4 .boxInformations {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }
