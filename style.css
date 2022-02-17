@@ -36,7 +36,7 @@ header {
 .logo {
     height: auto;
     max-width: 10%;
-    min-width: 30%;
+    min-width: 15%;
 }
 
 nav {
@@ -293,8 +293,8 @@ footer .linguagem {
 @media (max-width: 480px) {
 
     body {
-        width: 100vw;
-        height: 100vh;
+        width: 480px;
+        height: 100%;
     }
 
     .informations h1 {
@@ -340,5 +340,70 @@ footer .linguagem {
         margin: 20px 0px 0px 0px;
         width: 100%;
     }
+
+    .boxFaq {
+        display: flex;
+    }
+
+    .FAQ {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .questions {
+        font-size: 1px;
+    }
+
+    .accordion-link {
+        font-size: 100%;
+    }
+
+    .enfForm {
+        text-align: center;
+    }
+
+    #inputmail {
+        width: 100%;
+    }
+
+    .end {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    footer {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    .doubts {
+        margin: 5%;
+        padding: 0;
+        width: 100%;
+    }
+
+    .help {
+        margin: 0;
+        padding: 5%;
+    }
+
+    .part-1 a, .part-2 a, .part-3 a, .part-4 a {
+        padding: 10% 5% 10% 0;
+    }
+
+    footer .linguagem {
+        width: 35%;
+        margin: 0 0 0 5%;
+    }
+
+    .netflix {
+        padding: 0;
+        margin: 5% 0 0 5%;
+        padding-bottom: 5%;
+    }
+
 
 }
