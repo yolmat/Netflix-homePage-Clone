@@ -36,8 +36,8 @@ header {
 
 .logo {
     height: auto;
-    max-width: 10%;
-    min-width: 20%;
+    width: 10%;
+
 }
 
 nav {
